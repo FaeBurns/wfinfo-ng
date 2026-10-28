@@ -17,6 +17,8 @@ pub enum EquipmentType {
     Archwing,
     #[serde(rename = "Arch-Gun")]
     ArchGun,
+    #[serde(rename = "Arch-Melee")]
+    ArchMelee,
     Skins,
 }
 
